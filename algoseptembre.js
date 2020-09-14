@@ -37,6 +37,7 @@
 //     console.log("tu paies pas d'impot")
 // }
 // exo assurance
+// techniquement pas completement bon 
 let age = Number(prompt("Veuillez saisir votre âge:"));
 let permis = Number(prompt("Depuis combien de temps avez vous le permis?"));
 let accident = Number(prompt("combien d'accidents avez vous eu ?"));
