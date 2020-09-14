@@ -36,3 +36,21 @@
 // } else {
 //     console.log("tu paies pas d'impot")
 // }
+// exo assurance
+let age = Number(prompt("Veuillez saisir votre âge:"));
+let permis = Number(prompt("Depuis combien de temps avez vous le permis?"));
+let accident = Number(prompt("combien d'accidents avez vous eu ?"));
+let fidelite = Number(prompt("combien de temps etes vous inscrit ?"));
+let tarif;
+if (age >= 25 && permis > 2 && accident == 0) {
+    tarif = "vert";
+    console.log("vous devrez payer le tarif " + tarif);
+} else if ((((age <= 25 && permis >= 2) || (age >= 25 && permis < 2)) && accident == 0) || (age > 25 && accident == 1 && permis > 2)) {
+    tarif = "Orange";
+    console.log("vous devrez payer le tarif " + tarif);
+} else if ((age <= 25 && permis < 2 && accidents == 0) || (((age < 25 && permis > 2) || (age >= 25 && permis < 2)) && accident == 1) || (age < 25 && permis > 2 && accident == 2)) {
+    tarif = "Rouge";
+    console.log("vous devrez payer le tarif " + tarif);
+} else {
+    console.log("vous ne pouvez pas etre assuré ici ");
+}
