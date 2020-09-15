@@ -113,7 +113,7 @@
 // le while est utilisé quand on ne sait pas combien de fois on va répété l'action mais on va la repété au moins une fois.
 
 
-let depart = Number(prompt("Veuillez entrer un nombre de départ"));
+// let depart = Number(prompt("Veuillez entrer un nombre de départ"));
 
 // for (let i = 1; i <= 10; i++) {
 //     let suite = depart + i;
@@ -132,8 +132,37 @@ let depart = Number(prompt("Veuillez entrer un nombre de départ"));
 
 // }
 //deuxieme vesion.
-let nombre = depart + 1;
-while (nombre <= depart + 10) {
-    console.log(nombre);
-    nombre++;
+
+// let nombre = depart + 1;
+// while (nombre <= depart + 10) {
+//     console.log(nombre);
+//     nombre++;
+// }
+
+
+//table de multiplication
+// let table = Number(prompt("veuillez entrer une table"))
+// for (let i = 1; i <= 10; i++) {
+//     console.log(table * i) //(table + "*" + i + "=" + table * i)
+// }
+
+
+// exercice 1+2+3+4ect...
+
+// let nombre = Number(prompt("Veuillez entrer un nombre."))
+// let addition = 0
+
+
+// for (let i = 1; i <= nombre; i++) {
+//     addition = addition + i;
+//     console.log(addition)
+// }
+
+//meme qu'au dessus sauf que multi
+let nombre = Number(prompt("veuillez entrez un nombre"))
+let multi = 1
+
+for (let i = 1; i <= nombre; i++) {
+    multi = multi * i;
+    console.log(multi)
 }
