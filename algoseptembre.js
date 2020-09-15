@@ -159,10 +159,27 @@
 // }
 
 //meme qu'au dessus sauf que multi
-let nombre = Number(prompt("veuillez entrez un nombre"))
+// let nombre = Number(prompt("veuillez entrez un nombre"))
+// let multi = 1
+
+// for (let i = 1; i <= nombre; i++) {
+//     multi = multi * i;
+//     console.log(multi)
+// }
+
+
+let nombre = Number(prompt("veuillez entrer un nombre"))
+let addition = 0
 let multi = 1
 
 for (let i = 1; i <= nombre; i++) {
-    multi = multi * i;
-    console.log(multi)
+    addition = addition + i;
 }
+console.log("resultat de l addition" + addition)
+
+for (let i = 1; i <= nombre; i++) {
+    multi = multi * i;
+
+}
+console.log("resultat de  la mutliplication est" + multi)
+console.log("resultat du tout" + (multi + addition))
