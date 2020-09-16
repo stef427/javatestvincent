@@ -200,3 +200,46 @@
 
 // }
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//recherche  de chiffre//
+
+
+// let nombre = Number(prompt("entrez un nombre!!"));
+// let win = false;
+
+// while (win == false) {
+//     let choix = Number(prompt("veuillez entrer un nombre."));
+//     if (choix > nombre) {
+//         console.log("c est  plus petit");
+//     }
+//     if (choix < nombre) {
+//         console.log("cest plus grand");
+//     }
+//     if (choix == nombre) {
+//         win = true;
+//         console.log("bravo!!");
+//     }
+// }
+//////////////////////////////////////////////////////////////////////////////
+
+//tableau
+
+let tab1 = [1, 56, "voiture"];
+console.log(tab1);
+tab1.pop(); //pop pour enlever la dernière valeur ici voiture //
+console.log(tab1);
+// tab2=tab1.pop();        //                                                        //                         
+// console.log(tab2);      //ici on affiche le que le tab 1 c est a dire la voiture .//
+tab1.push("banane");
+console.log(tab1);
+
+// tab3=tab1.push("banane");  ////
+// console.log(tab3);        /////recupére l'index de tab1 //
+
+// tab3=tab1.shift();
+// console.log(tab1);   //enlève la première valeur//
+
+// tab1.unshift("577"); //ajoute une valeur au début du tableau .//
+
+tab1[0] = "?";
+console.log(tab1); //change la valeur de l'index choisi ici index0 au lieu de 1 se sera ?
