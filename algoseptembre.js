@@ -224,30 +224,44 @@
 
 //tableau
 
-let tab1 = [1, 56, "voiture"];
-console.log(tab1);
-tab1.pop(); //pop pour enlever la dernière valeur ici voiture //
-console.log(tab1);
-tab2 = tab1.pop(); //                                                        //                         
-console.log(tab2); //ici on affiche le que le tab 1 c est a dire la voiture .//
-tab1.push("banane");
-console.log(tab1);
+// let tab1 = [1, 56, "voiture"];
+// console.log(tab1);
+// tab1.pop(); //pop pour enlever la dernière valeur ici voiture //
+// console.log(tab1);
+// tab2 = tab1.pop(); //                                                        //                         
+// console.log(tab2); //ici on affiche le que le tab 1 c est a dire la voiture .//
+// tab1.push("banane");
+// console.log(tab1);
 
-tab3 = tab1.push("banane"); /// 
-console.log(tab3); /////recupére l'index de tab1 //
+// tab3 = tab1.push("banane"); /// 
+// console.log(tab3); /////recupére l'index de tab1 //
 
-tab3 = tab1.shift(); ///
-console.log(tab1); //enlève la première valeur//
+// tab3 = tab1.shift(); ///
+// console.log(tab1); //enlève la première valeur//
 
-tab1.unshift("577"); //ajoute une valeur au début du tableau .//
+// tab1.unshift("577"); //ajoute une valeur au début du tableau .//
 
-tab1[0] = "?";
-console.log(tab1); //change la valeur de l'index choisi ici index0 au lieu de 1 se sera ?
+// tab1[0] = "?";
+// console.log(tab1); //change la valeur de l'index choisi ici index0 au lieu de 1 se sera ?
 
-console.log(tab1.length); //nombre d'elements dans le tableau .
+// console.log(tab1.length); //nombre d'elements dans le tableau .
 
-tab1.splice(0, 1, "cake", "fraise"); //insérer des données (index d'insertion ,nombre d'éléments à rajouter )
-console.log(tab1);
-tab1.concat(tab2);
-console.log(tab1);
-// concaténation ==>concaténé c'est fusionné [1,banane,fruit ] + [pomme,prune ,voiture ] ===>[1 1,banane,fruit,pomme,prune ,voiture]
+// tab1.splice(0, 1, "cake", "fraise"); //insérer des données (index d'insertion ,nombre d'éléments à rajouter )
+// console.log(tab1);
+// tab1.concat(tab2);
+// console.log(tab1);
+// // concaténation ==>concaténé c'est fusionné [1,banane,fruit ] + [pomme,prune ,voiture ] ===>[1 1,banane,fruit,pomme,prune ,voiture]
+
+let tab4 = ["emile", 89];
+let tab5 = ["louis", 66];
+let tab6 = tab4.concat(tab5); //concatenation de tableau
+console.log(tab6);
+let tab7 = ["hello", "world", "!!!"]; //////
+console.log(tab7.toString()); //////pour que les éléments apparraissent tels quel avec les virgules .
+
+let users = {
+    id: 0,
+    nom: "Dupont", ////objets surtout utilisé pour la base de données ///
+    prenom: "Roger"
+};
+console.log(users.prenom);
